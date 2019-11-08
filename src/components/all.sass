@@ -122,6 +122,51 @@ $menu-label-color: $white-ter
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
 
+.page-title-container
+  background-color: #F7F7F2;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.page-title-container h1
+  display: block;
+  box-sizing: inherit;
+  color: #F59BAF;
+  padding: 1rem;
+  background-color: #EDEDED;
+  box-shadow: 1px 1px #BCBEC0;
+  border-radius: 10px;
+  font-weight: 700 !important;
+  font-size: 3rem !important;
+
+.picture-container
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+
+  .ribbon-container 
+    display: flex;
+    height: 150px;
+    width: 100%;
+    line-height: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    h1, h3
+      line-height: 1;
+      padding: 0.25em;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      background-image: linear-gradient(90deg, #ffffff00, #fff, #ffffff00);
+
+
+
 
 @import "~bulma"
 
@@ -138,3 +183,5 @@ $menu-label-color: $white-ter
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
+
+
