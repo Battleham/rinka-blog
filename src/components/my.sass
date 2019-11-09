@@ -1,5 +1,11 @@
+html, body
+    overflow-x: hidden;
 body
     background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 
 .blog-content
     margin: 10px 0;
@@ -8,9 +14,15 @@ body
 .blog-content h3
     font-size: 1.5em;
     font-weight: 600;
+@media only screen and (max-width: 1000px)
+    font-size: 1em !important;
+
 .blog-content h1
     font-size: 2em;
     font-weight: 700;
+@media only screen and (max-width: 1000px)
+    font-size: 1.25em !important;
+
 
 .blog-section
     margin: 0 10%;
@@ -21,22 +33,25 @@ body
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 5vh 0;
+  padding: 20px 0;
 
 .page-title-container h1
   display: block;
-  box-sizing: inherit;
   color: #F59BAF;
   padding: 1rem;
   background-color: #EDEDED;
   box-shadow: 1px 1px #BCBEC0;
   border-radius: 10px;
   font-weight: 700 !important;
-  font-size: 3rem !important;
+  font-size: 3em !important;
   text-align: center;
   font-family: Apple Chancery, cursive;
+  @media only screen and (max-width: 1000px)
+      font-size: 2em !important;
 
 .layout-body-container
-  margin: 4rem auto;
+  margin-top: 4rem auto;
   max-width: 1240px;
   background-color: #F7F7F2;
   border: 1px solid #BCBEC0;
@@ -77,6 +92,7 @@ body
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
+  margin: 20px 0;
   @media only screen and ( max-width:  1240px)      
     grid-template-columns: 1fr 1fr;
   @media only screen and (max-width: 1000px) 
