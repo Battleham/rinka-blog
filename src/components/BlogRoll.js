@@ -10,13 +10,7 @@ class BlogRoll extends React.Component {
 		const { edges: posts } = data.allMarkdownRemark;
 
 		return (
-			<div
-				style={{
-					display: "grid",
-					gridTemplateColumns: "1fr 1fr",
-					gridGap: "10px"
-				}}
-			>
+			<div className="blog-roll-container">
 				{posts &&
 					posts.map(({ node: post }) => (
 						<BlogCard post={post} />

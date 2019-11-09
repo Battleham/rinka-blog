@@ -50,14 +50,7 @@ const TemplateWrapper = ({ children }) => {
 			</Helmet>
 			<Navbar />
 
-			<div
-				style={{
-					margin: `4rem auto`,
-					maxWidth: 1200,
-					backgroundColor: "#F5F2F0",
-					border: "1px solid #BCBEC0"
-				}}
-			>
+			<div className="layout-body-container">
 				<div>{children}</div>
 			</div>
 			<Footer />
