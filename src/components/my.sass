@@ -1,0 +1,84 @@
+body
+    background-color: black;
+
+.blog-content
+    margin: 10px 0;
+.blog-content p
+    text-indent: 2em;
+.blog-content h3
+    font-size: 1.5em;
+    font-weight: 600;
+.blog-content h1
+    font-size: 2em;
+    font-weight: 700;
+
+.blog-section
+    margin: 0 10%;
+
+.page-title-container
+  background-color: #F7F7F2;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+.page-title-container h1
+  display: block;
+  box-sizing: inherit;
+  color: #F59BAF;
+  padding: 1rem;
+  background-color: #EDEDED;
+  box-shadow: 1px 1px #BCBEC0;
+  border-radius: 10px;
+  font-weight: 700 !important;
+  font-size: 3rem !important;
+  text-align: center;
+  font-family: Apple Chancery, cursive;
+
+.layout-body-container
+  margin: 4rem auto;
+  max-width: 1240px;
+  background-color: #F7F7F2;
+  border: 1px solid #BCBEC0;
+  @media only screen and ( max-width: 1000px)
+      max-width: 600px;
+
+.picture-container
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  @media only screen and (max-width: 1000px)
+    margin: 5px 0;
+
+  .ribbon-container 
+    display: flex;
+    height: 150px;
+    width: 100%;
+    line-height: 1;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+  .ribbon-container h1, h3
+      line-height: 1;
+      padding: 0.25em;
+      font-weight: 600;
+      font-size: 1.5em;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      color: #002D6D;
+      background-image: linear-gradient(90deg, #ffffff00, #fff, #fff, #fff, #ffffff00);
+
+.blog-roll-container 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  @media only screen and ( max-width:  1240px)      
+    grid-template-columns: 1fr 1fr;
+  @media only screen and (max-width: 1000px) 
+    display: block;
+  

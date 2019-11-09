@@ -16,8 +16,8 @@ const BlogCard = ({ post }) => {
 					className="picture-container"
 					style={{
 						backgroundImage: `url(${picUrl})`,
-						width: "400px",
-						height: "300px"
+						width: "300px",
+						height: "250px"
 					}}
 				>
 					<div className="ribbon-container">

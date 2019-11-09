@@ -8,13 +8,11 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 	const PageContent = contentComponent || Content;
 
 	return (
-		<section style={{ backgroundColor: "#F7F7F2" }}>
+		<section>
 			<div className="page-title-container">
 				<h1>{title}</h1>
 			</div>
-			<div style={{ margin: "50px 10%" }}>
-				<PageContent className="content" content={content} />
-			</div>
+			<PageContent className="blog-content" content={content} />
 		</section>
 	);
 };

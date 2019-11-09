@@ -10,11 +10,9 @@ export default class BlogIndexPage extends React.Component {
 				<div className="page-title-container">
 					<h1>Latest Stories</h1>
 				</div>
-				<section className="section">
-					<div className="container">
-						<div className="content">
-							<BlogRoll />
-						</div>
+				<section>
+					<div className="blog-content">
+						<BlogRoll />
 					</div>
 				</section>
 			</Layout>

@@ -51,7 +51,9 @@ const TemplateWrapper = ({ children }) => {
 			<Navbar />
 
 			<div className="layout-body-container">
-				<div>{children}</div>
+				<div className="blog-section">
+					<div>{children}</div>
+				</div>
 			</div>
 			<Footer />
 		</div>

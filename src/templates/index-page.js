@@ -20,42 +20,21 @@ export const IndexPageTemplate = ({
 			<h1>{title}</h1>
 		</div>
 		<section style={{ backgroundColor: "#F7F7F2" }}>
-			<div className="container">
-				<div className="section">
-					<div className="columns">
-						<div className="column is-10 is-offset-1">
-							<div className="content">
-								<div className="content">
-									<div className="tile">
-										<h1 className="title">{mainpitch.title}</h1>
-									</div>
-									<div className="tile">
-										<h3 className="subtitle">{mainpitch.description}</h3>
-									</div>
-								</div>
-								<div className="columns">
-									<div className="column is-12">
-										<h3 className="has-text-weight-semibold is-size-2">
-											{heading}
-										</h3>
-										<p>{description}</p>
-									</div>
-								</div>
-								<div className="column is-12" style={{ padding: "0" }}>
-									<h3 className="has-text-weight-semibold is-size-2">
-										Latest stories
-									</h3>
-									<BlogRoll />
-									<div className="column is-12 has-text-centered">
-										<Link className="btn" to="/blog">
-											Read more
-										</Link>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+			<h1 className="title">{mainpitch.title}</h1>
+			<div className="tile">
+				<h3 className="subtitle">{mainpitch.description}</h3>
+			</div>
+			<div className="columns">
+				<div className="column is-12">
+					<h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
+					<p>{description}</p>
 				</div>
+			</div>
+			<BlogRoll />
+			<div className="column is-12 has-text-centered">
+				<Link className="btn" to="/blog">
+					Read more
+				</Link>
 			</div>
 		</section>
 	</div>

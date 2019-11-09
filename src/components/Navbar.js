@@ -61,7 +61,12 @@ const Navbar = class extends React.Component {
 							to="/"
 							className="navbar-item"
 							title="Logo"
-							style={{ color: "#FF0000", fontWeight: "bold", fontSize: "2em" }}
+							style={{
+								color: "#BE5D77",
+								fontWeight: "bold",
+								fontSize: "2em",
+								fontFamily: "Apple Chancery, cursive"
+							}}
 						>
 							Rinka Xait
 						</Link>
