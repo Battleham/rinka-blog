@@ -8,13 +8,11 @@ export default class BlogIndexPage extends React.Component {
 		return (
 			<Layout>
 				<div className="page-title-container">
-					<h1>Latest Stories</h1>
+					<h1>Latest Stories!</h1>
 				</div>
-				<section>
-					<div className="blog-content">
-						<BlogRoll />
-					</div>
-				</section>
+				<div className="blog-content">
+					<BlogRoll />
+				</div>
 			</Layout>
 		);
 	}

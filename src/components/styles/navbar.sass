@@ -1,0 +1,50 @@
+.navbar
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  background-color: #ffffffe0;
+  @media only screen and ( max-width: 768px)
+    display: flex;
+
+.navbar .top
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media only screen and ( max-width: 768px)
+    justify-content: left;
+
+.navbar .top .logo
+  color: #BE5D77;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: Apple Chancery, cursive;
+
+.navbar .menu
+  display: flex;
+  justify-content: center;
+
+.navbar .menu-item
+  display: flex;
+  padding: 0 30px;
+  width: 5rem;
+  height: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: .25rem;
+  font-weight: bold;
+
+
+.navbar a
+  padding: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  color: black;
+
+.navbar .menu-item:hover
+  background: black;
+  color: white;

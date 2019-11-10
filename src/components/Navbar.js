@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "gatsby";
-import github from "../img/github-icon.svg";
-import logo from "../img/logo.svg";
 
 const Navbar = class extends React.Component {
 	constructor(props) {
@@ -34,66 +32,22 @@ const Navbar = class extends React.Component {
 
 	render() {
 		return (
-			<nav
-				role="navigation"
-				aria-label="main-navigation"
-				style={{
-					position: "fixed",
-					width: "100%",
-					display: "flex",
-					alignItems: "stretch",
-					backgroundColor: "white",
-					zIndex: "30",
-					top: "0"
-				}}
-			>
-				<div
-					className="container"
-					style={{
-						alignItems: "stretch",
-						display: "flex",
-						minHeight: "3.25rem",
-						width: "100%"
-					}}
-				>
-					<div className="navbar-brand">
-						<Link
-							to="/"
-							className="navbar-item"
-							title="Logo"
-							style={{
-								color: "#BE5D77",
-								fontWeight: "bold",
-								fontSize: "2em",
-								fontFamily: "Apple Chancery, cursive"
-							}}
-						>
-							Rinka Xait
-						</Link>
-						{/* Hamburger menu */}
-						<div
-							className={`navbar-burger burger ${this.state.navBarActiveClass}`}
-							data-target="navMenu"
-							onClick={() => this.toggleHamburger()}
-						>
-							<span />
-							<span />
-							<span />
-						</div>
-					</div>
-					<div
-						id="navMenu"
-						className={`navbar-menu ${this.state.navBarActiveClass}`}
-					>
-						<div className="navbar-start has-text-centered">
-							<Link className="navbar-item" to="/about">
-								About
-							</Link>
-							<Link className="navbar-item" to="/blog">
-								Blog
-							</Link>
-						</div>
-					</div>
+			<nav role="navigation" aria-label="main-navigation" className="navbar">
+				<div className="top">
+					<Link to="/" title="Logo" className="logo">
+						Rinka Xait
+					</Link>
+				</div>
+				<div className="menu">
+					<Link className="menu-item" to="/">
+						Home
+					</Link>
+					<Link className="menu-item" to="/about">
+						About
+					</Link>
+					<Link className="menu-item" to="/blog">
+						Blog
+					</Link>
 				</div>
 			</nav>
 		);

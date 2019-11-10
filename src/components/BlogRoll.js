@@ -13,7 +13,7 @@ class BlogRoll extends React.Component {
 			<div className="blog-roll-container">
 				{posts &&
 					posts.map(({ node: post }) => (
-						<BlogCard post={post} />
+						<BlogCard post={post} key={post.id} />
 						/*<div className="is-parent column is-6" key={post.id}>
               <article
                 className={`blog-list-item tile is-child box notification ${
