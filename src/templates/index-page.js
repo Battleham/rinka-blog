@@ -5,6 +5,7 @@ import { Link, graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import BlogRoll from "../components/BlogRoll";
+import InstagramRoll from "../components/InstagramRoll";
 
 export const IndexPageTemplate = ({
 	image,
@@ -24,6 +25,9 @@ export const IndexPageTemplate = ({
 			<div>
 				<h3>{mainpitch.description}</h3>
 			</div>
+
+			<InstagramRoll />
+
 			<h3>{heading}</h3>
 			<p>{description}</p>
 			<BlogRoll />

@@ -104,6 +104,25 @@ body
   align-items: center;
   justify-content: center;
 
+ul.images 
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  width: 100%;
+  overflow-x: auto;
+  background-color: #ddd;
+
+ul.images li 
+  display: inline;
+
+.images .instaImage
+  width: 35%;
+  height: 0;
+  padding-bottom: 35%;
+  @media screen and ( max-width: 786px )
+    width: 45%;
+    padding-bottom: 45%;
+
   
 @import "./navbar"
 @import "./footer"
