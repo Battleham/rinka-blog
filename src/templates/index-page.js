@@ -27,7 +27,7 @@ export const IndexPageTemplate = ({
 			<h3>{heading}</h3>
 			<p>{description}</p>
 			<BlogRoll />
-			<div className="column is-12 has-text-centered">
+			<div className="flex-center">
 				<Link className="btn" to="/blog">
 					Read more
 				</Link>
