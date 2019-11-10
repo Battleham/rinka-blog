@@ -6,7 +6,8 @@ const Navbar = class extends React.Component {
 		super(props);
 		this.state = {
 			active: false,
-			navBarActiveClass: ""
+			navBarActiveClass: "",
+			linkActiveClass: ""
 		};
 	}
 
@@ -21,10 +22,12 @@ const Navbar = class extends React.Component {
 				// set the class in state for the navbar accordingly
 				this.state.active
 					? this.setState({
-							navBarActiveClass: "is-active"
+							navBarActiveClass: "open",
+							linkActiveClass: "fade"
 					  })
 					: this.setState({
-							navBarActiveClass: ""
+							navBarActiveClass: "",
+							linkActiveClass: ""
 					  });
 			}
 		);
@@ -38,16 +41,29 @@ const Navbar = class extends React.Component {
 						Rinka Xait
 					</Link>
 				</div>
-				<div className="menu">
-					<Link className="menu-item" to="/">
-						Home
-					</Link>
-					<Link className="menu-item" to="/about">
-						About
-					</Link>
-					<Link className="menu-item" to="/blog">
-						Blog
-					</Link>
+				<div className="bottom">
+					<div className="hamburger" onClick={() => this.toggleHamburger()}>
+						<div className="line"></div>
+						<div className="line"></div>
+						<div className="line"></div>
+					</div>
+					<div className={`menu ${this.state.navBarActiveClass}`}>
+						<Link className={`menu-item ${this.state.linkActiveClass}`} to="/">
+							Home
+						</Link>
+						<Link
+							className={`menu-item ${this.state.linkActiveClass}`}
+							to="/about"
+						>
+							About
+						</Link>
+						<Link
+							className={`menu-item ${this.state.linkActiveClass}`}
+							to="/blog"
+						>
+							Blog
+						</Link>
+					</div>
 				</div>
 			</nav>
 		);
