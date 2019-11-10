@@ -43,16 +43,16 @@
     align-items: center;
     justify-content: space-around;
     margin-top: 10vh;
-    clip-path: circle(10vh at 90% -10%);
-    -webkit-clip-path: circle(10vh at 90% -10%);
+    clip-path: circle(5vh at 90% -10%);
+    -webkit-clip-path: circle(5vh at 90% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
   }
 }
 
 .navbar .open {
-  clip-path: circle(200vh at 90% -10%);
-  -webkit-clip-path: circle(200vh at 90% -10%);
+  clip-path: circle(150vh at 90% -10%);
+  -webkit-clip-path: circle(150vh at 90% -10%);
   pointer-events: all;
 }
 
@@ -75,14 +75,13 @@
   border-radius: .25rem;
   font-weight: bold;
   @media only screen and ( max-width: 768px) {
-    transition: all 0.3s ease-out 0.3s;
+    transition: all 0.3s ease-in 0.3s;
     opacity: 0;
   }
 }
 
 .menu a.fade {
   opacity: 1;
-  transition: all 0.3s ease-out;
 }
 
 
