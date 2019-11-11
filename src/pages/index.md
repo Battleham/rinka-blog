@@ -8,8 +8,8 @@ mainpitch:
   title: Captured in real time
   description: >-
     Every moment deserves your fullest attention. If you keep waiting for the
-    next thing, you will have spent all your life waiting. It is in us to keep
-    wanting more and waiting for the next big thing. Don't waste your moment...
+    next thing, you will have spent all your life waiting. Don't waste your
+    moment...
 description: 'These are my precious moments, thoughts, and keepsakes.'
 intro:
   blurbs: []
