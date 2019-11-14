@@ -20,9 +20,7 @@ const BlogCard = ({ post }) => {
 						height: "250px"
 					}}
 				>
-					<div className="ribbon-container">
-						<h3>{post.frontmatter.title}</h3>
-					</div>
+					<div className="ribbon-container">{post.frontmatter.title}</div>
 				</div>
 			</Link>
 		</div>

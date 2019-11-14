@@ -1,9 +1,10 @@
 html, body
     overflow-x: hidden;
 body
-    background-color: white;
+    background-color: #F59BAF;
     margin: 0;
     padding: 0;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif
 
 .blog-content
     margin: 10px 0;
@@ -26,37 +27,34 @@ body
     margin: 0 10%;
 
 .page-title-container
-  background-color: #F7F7F2;
-  height: 200px;
+  height: 20vh;
+  max-height: 200px; 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5vh 0;
-  padding: 20px 0;
+  text-align: center;
+  padding: 10px 0;
 
 .page-title-container h1
-  display: block;
-  color: #F59BAF;
-  padding: 1rem;
-  background-color: #EDEDED;
-  box-shadow: 1px 1px #BCBEC0;
-  border-radius: 10px;
   font-weight: 700 !important;
   font-size: 3em !important;
-  text-align: center;
   font-family: Apple Chancery, cursive;
   @media only screen and (max-width: 1000px)
       font-size: 2em !important;
 
-.layout-body-container
-  padding-top: 4rem;
+.main-layout-container
+  box-shadow: 10px 0 5px gray, -10px 0 5px gray;
+  margin-left: 50%;
   width: 100%;
   max-width: 1240px;
-  background-color: #F7F7F2;
-  border: 1px solid #BCBEC0;
-  @media only screen and ( min-width: 1241px)
-    margin-left: 50%;
-    transform: translateX(-50%);
+  transform: translateX(-50%);
+
+.layout-body-container
+  padding-top: 100px;
+  background-color: #fff;
+  border-bottom: 2px solid #F59BAF;
+  @media screen and ( max-width: 786px )
+    padding-top: 50px;
 
 .picture-container
   background-position: center;
@@ -69,13 +67,14 @@ body
 
   .ribbon-container 
     display: flex;
-    height: 150px;
     width: 100%;
+    min-height: 75px;
     line-height: 1;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     text-align: center;
+    background-image: linear-gradient(90deg, #ffffff00, #fff, #fff, #fff, #ffffff00);
 
   .ribbon-container h1, h3
       line-height: 1;
@@ -85,7 +84,6 @@ body
       display: flex;
       justify-content: space-around;
       width: 100%;
-      color: #002D6D;
       background-image: linear-gradient(90deg, #ffffff00, #fff, #fff, #fff, #ffffff00);
 
 .blog-roll-container 
@@ -97,6 +95,18 @@ body
     grid-template-columns: 1fr 1fr;
   @media only screen and (max-width: 1000px) 
     display: block;
+  a
+    text-decoration: none;
+    font-family: Apple Chancery, cursive;
+    line-height: 1;
+    padding: 0.25em;
+    font-weight: 600;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  a:visited
+    color: black;
 
 .flex-center
   display: flex;

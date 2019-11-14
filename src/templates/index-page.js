@@ -21,10 +21,8 @@ export const IndexPageTemplate = ({
 			<h1>{title}</h1>
 		</div>
 		<div className="blog-content">
-			<h1>{mainpitch.title}</h1>
-			<div>
-				<h3>{mainpitch.description}</h3>
-			</div>
+			<h2>{mainpitch.title}</h2>
+			<p>{mainpitch.description}</p>
 
 			<InstagramRoll />
 
