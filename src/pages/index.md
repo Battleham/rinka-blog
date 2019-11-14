@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Captured
-image: /img/products-full-width.jpg
+image: /img/5956a256-ef75-4da7-975b-08ad7438f777.jpeg
 heading: 'Every moment should be caputured '
 subheading: Waiting for the future only leads to wasted time
 mainpitch:
@@ -10,7 +10,7 @@ mainpitch:
     Every moment deserves your fullest attention. If you keep waiting for the
     next thing, you will have spent all your life waiting. Don't waste your
     moment...
-description: 'These are my precious moments, thoughts, and keepsakes.'
+description: 'These are my moments, thoughts, and ideas.'
 intro:
   blurbs: []
   heading: I will share with you what makes me stop
