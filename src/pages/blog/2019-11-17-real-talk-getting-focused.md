@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Real Talk: Getting focused'
+title: 'Real Talk: Getting Focused'
 date: 2019-11-14T20:44:50.889Z
 description: >
   It's not easy to get focused. You must visualize your life the way you want
