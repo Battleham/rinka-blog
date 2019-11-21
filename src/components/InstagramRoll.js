@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StaticQuery } from "gatsby";
+import { StaticQuery, graphql } from "gatsby";
 import Img from "gatsby-image";
 
 class InstagramRoll extends Component {
