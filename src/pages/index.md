@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Captured
-image: /img/5956a256-ef75-4da7-975b-08ad7438f777.jpeg
+image: /img/dc16bc3a-5e1c-4874-b0c6-07e3aa8d0baa.jpeg
 heading: 'Every moment should be caputured '
 subheading: Waiting for the future only leads to wasted time
 mainpitch:
@@ -14,22 +14,32 @@ description: 'These are my moments, thoughts, and ideas.'
 intro:
   blurbs: []
   heading: I will share with you what makes me stop
-  description: Blah Blah
+  description: "Online a lot of people are fake and I won’t do that. Might put a filter on it though! \U0001F609"
 main:
-  heading: blah
-  description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+  heading: My Wedding Day
+  description: >+
+    The number one thing I say when asked is that in order to enjoy your wedding
+    is to remember no matter the planning assume the worst ! Managing your
+    expectations is the most important.
+
+     During my wedding so many things went wrong and I enjoyed every minute of it! 
+
+    Rain ✔️  dress stained ✔️  Vendors late ✔️ vendors forgetting things ✔️ Me
+    forgetting things ✔️ things you didn’t think you’d need to rehearse and talk
+    over ✔️
+
+
+    But because I never expected it to be perfect I was never once upset and now
+    all I have are the positive feeling and vibes of the most special day. 
+
   image1:
     alt: The most amazing friends on the best day of my life.
     image: /img/f85d58a3-fe08-4679-b39d-a57b8286c14b.jpeg
   image2:
-    alt: blah
-    image: /img/apple-touch-icon.png
+    alt: Treasured details
+    image: /img/2f68a5fc-86cc-430f-8868-f337d2700a42.jpeg
   image3:
-    alt: bleh
-    image: /img/blog-index.jpg
+    alt: Captured and arranged by me!
+    image: /img/a7a7ff0c-d4f2-40a2-b859-2f15a937a854.jpeg
 ---
 
