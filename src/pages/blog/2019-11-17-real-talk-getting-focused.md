@@ -13,7 +13,7 @@ description: >
   forget that nothing just happens. It takes time and sacrifice and dedication
   and it all depends on the sacrifices we make and to not waste another hour. 
 featuredpost: true
-featuredimage: /img/a7a7ff0c-d4f2-40a2-b859-2f15a937a854.jpeg
+featuredimage: /img/5f3d2fd3-5915-46a4-a783-9b5f7ccd05e5.jpg
 tags:
   - blah
 ---
