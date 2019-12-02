@@ -20,4 +20,4 @@ I was told they would have to perform exploratory surgery to get rid of this tum
 
 Each time was playing with my emotions. A whiplash of back and forth, your never going to have kids to you should be just fine. Unfortunetly, I have been trying for two year with no luck. I am not even sure how to feel. My Surgeon assured me theres shouldnt be any complication with getting regnant and to consult a fertility specialist. ARE YOU F@%ing KIDDING ME? 
 
-Every time I think im done wiht this damn body and these damned doctors...theres more. Now I'm just unsure wethere to go or to just not do anything. I want a baby but I'm tired already and I havent even started yet.
+Every time I think im done wiht this damn body and these damned doctors...theres more. Now I'm just unsure wether to go or to just not do anything. I want a baby but I'm tired already and I havent even started yet.
