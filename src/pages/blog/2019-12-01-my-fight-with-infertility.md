@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: My fight with Infertility
+title: Infertility
 date: 2019-12-02T02:28:00.065Z
 description: >-
   Nobody really knows how painful it is for a women when your body fails to do
